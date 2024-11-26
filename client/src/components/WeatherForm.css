@@ -1,0 +1,37 @@
+/* WeatherForm.css */
+.form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.input-field {
+    padding: 10px;
+    font-size: 16px;
+    width: 250px;
+    border: 2px solid #0078d7;
+    border-radius: 5px;
+    outline: none;
+    transition: border-color 0.3s;
+}
+
+.input-field:focus {
+    border-color: #005bb5;
+}
+
+.submit-button {
+    padding: 10px 20px;
+    margin-left: 10px;
+    font-size: 16px;
+    background-color: #0078d7;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.submit-button:hover {
+    background-color: #005bb5;
+}
